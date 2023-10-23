@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0%;
+  font-family: Plotgars Regular;
+}
+.afro-section {
+  padding: 5px 10px;
+  background: rgb(3, 3, 167);
+  border: 1px solid #000;
+  width: fit-content;
+  position: absolute;
+  left: 150px;
+  top: -4px;
+  font-size: 15px;
+  color: #fff;
+  border-radius: 40px;
+}
+.main-hero,
+.about-us {
+  background: linear-gradient(to right, #9635f8, #4116df);
+}
+.flame {
+  width: 10%;
+  position: absolute;
+  right: 120px;
+  top: -20px;
+}
+.hero,
+.about {
+  background: url("/assets/line.png");
+  display: flex;
+  height: 170vh;
+  justify-content: center;
+  background-size: cover;
+  position: relative;
+}
+.text {
+  margin-top: 100px;
+  position: relative;
+}
+.inner-hero {
+  padding-top: 40px;
+}
+.hero-text,
+.fest {
+  font-size: 150px;
+  color: #fff;
+}
+.hero-text {
+  transform: translateX(100px);
+  z-index: 9090909;
+  font-weight: 500;
+}
+.fest {
+  transform: translateY(-40px);
+  font-size: 300px;
+  font-weight: 900;
+}
+.m-line {
+  display: flex;
+  justify-content: center;
+}
+.lines {
+  transform: translateY(-20px);
+  width: 100%;
+  position: absolute;
+}
+.sponsors {
+  display: flex;
+  justify-content: center;
+  transform: translateY(-40px);
+  padding-bottom: 300px;
+}
+.sponsor {
+  padding: 20px 40px;
+  background: #2d105d;
+  color: #fff;
+  font-size: 30px;
+  border-radius: 40px;
+  position: absolute;
+  width: fit-content;
+}
+.about {
+  padding: 170px;
+}
+.abt-img {
+  position: relative;
+  z-index: 9;
+}
+.about-img {
+  border-radius: 40px;
+  width: 50vw;
+  height: 100vh;
+  z-index: -999;
+}
+.linea {
+  display: flex;
+  justify-content: center;
+}
+.inner-about {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.lin {
+  width: 98vw;
+  position: absolute;
+}
+.m {
+  position: relative;
+}
+.txt {
+  display: flex;
+  justify-content: center;
+  /* transform: translateY(40px); */
+  position: absolute;
+  top: -40px;
+  left: 0;
+  right: 0;
+  z-index: 9999999 !important;
+}
+.about-txt {
+  padding: 20px 40px;
+  background: #2d105d;
+  color: #fff;
+  font-size: 30px;
+  border-radius: 40px;
+  /* width: fit-content; */
+}
+.contact-us {
+  padding: 40px;
+  background: #2d105d;
+}
+.contact {
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.inputs * {
+  display: block;
+}
+.inputs input {
+  padding: 20px;
+  width: 300px;
+  margin: 10px 0px;
+  border: 2px solid #2d105d;
+  border-radius: 10px;
+}
+.meme {
+  background: #fff;
+  border-radius: 40px;
+  padding: 60px 10px;
+}
+.contact-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+textarea {
+  padding: 10px;
+  border: 2px solid #2d105d;
+  border-radius: 10px;
+  width: 400px;
+  height: 150px;
+}
+.btn {
+  display: flex;
+  justify-content: space-around;
+}
+button {
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
+  background: #2d105d;
+  color: #fff;
+  border: 0;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+.read {
+  padding: 30px;
+  background: #fff;
+  border-radius: 20px;
+  width: 400px;
+  font-size: 16px;
+  top: 50%;
+  left: 15%;
+
+  position: absolute;
+}
+.r-btn {
+  display: flex;
+  justify-content: center;
+}
+.read button {
+  padding: 15px;
+  text-align: center !important;
+  margin-top: 10px;
+  border-radius: 50px;
+  width: 200px;
+}
+.box *{
+    display: block !important;
+}
